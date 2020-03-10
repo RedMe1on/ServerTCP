@@ -6,7 +6,7 @@ serv_socket = socket.socket(socket.AF_INET,  # выбор семейство п�
 
 serv_socket.bind(('127.0.0.1', 53210))
 
-serv_socket.listen(2)  # 2 - размер очереди входящих подключений (backlog)
+serv_socket.listen(3)  # 2 - размер очереди входящих подключений (backlog)
 print(serv_socket)
 
 while True:
